@@ -518,8 +518,20 @@ div.container-fluid{
     html,body{
       overflow-x: hidden;
     }
+    #heading{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bolder;
+      margin-top: 50px;
+      width: 380px;
+      margin-left: 30px;
+      box-shadow: 0px 4px 20px rgb(255,215,0);
+    }
+    
+      .navbar{
+        --bs-navbar-padding-x: none !important;
+      }
     * {
-       /* overflow-x: hidden !important; */
+       overflow-x: hidden !important;
 }
 #abtt{
   margin-left: 0px;
