@@ -406,7 +406,7 @@ div.container-fluid{
         overflow-x: hidden;
       }
       .media{
-        margin-left: -120px;
+        /* margin-left: -120px; */
         margin-top: 20px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-weight: bold;
@@ -466,6 +466,10 @@ div.container-fluid{
       font-weight: bold;
       margin: 0.5rem 0;
       margin-left: 130px;
+    }
+    #abt{
+        justify-content: center;
+    margin: 0 auto;
     }
     .brand{
       font-size: 0.75rem;
