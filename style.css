@@ -125,12 +125,15 @@ button.navbar-toggler{
   width: 100%;
   object-fit: cover;
   overflow: hidden;
+  display: flex;
+  
 }
 
 .hero-section img {
-  width: 100%;
-  height: auto;
-  display: block;
+ width: 100%;
+  height: auto;           /* keeps proportion */
+  max-width: 100%;        /* prevents overflow */
+  display: block; 
   
 }
 
@@ -236,6 +239,7 @@ button.navbar-toggler{
 
   .slider-image img {
     height: auto;
+    overflow-y: hidden;
   }
 }
 #heading{
@@ -292,6 +296,7 @@ div.container-fluid{
 /* ...existing code... */
 .card {
   transition: transform 0.60s;
+  overflow-y: hidden;
 }
 
 .card:hover {
@@ -531,8 +536,7 @@ div.container-fluid{
       margin-left: 130px;
     }
     #abt{
-        justify-content: center;
-    margin: 0 auto;
+       margin-left: -10px;
     }
     .brand{
       font-size: 0.75rem;
