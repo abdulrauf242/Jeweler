@@ -13,4 +13,5 @@
       quantityElement.textContent = quantity;
     }
   }
+  
 

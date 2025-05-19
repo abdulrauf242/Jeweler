@@ -12,8 +12,11 @@
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-dark">
-    
+  <div id="loader">
+  <div class="lds-hourglass"></div>
+</div>
+
+<nav class="navbar navbar-expand-lg bg-body-dark">
      <img id="logo" src="./assets/logo.png" alt=""> <a class="navbar-brand" href="#">Stratton Jeweler</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,20 +74,20 @@
   <div id="heading">
     <h1>SHOP OUR COLLECTIONS</h1>
   </div>
-  <div class="container-fluid">
-    <div class="card" style="width: 18rem;">
+  <div  class="container-fluid">
+    <div id="card" class="card" style="width: 18rem;">
       <img style="object-fit: cover; height: 100%;" src="./assets/jewelery 1.jpg" class="card-img-top" alt="...">
     </div>
     <!--  -->
-    <div class="card" style="width: 18rem;">
+    <div id="card" class="card" style="width: 18rem;">
       <img style="object-fit: cover; height: 100%;" src="./assets/ring 1.jpg" class="card-img-top" alt="...">
     </div>
     <!--  -->
-    <div class="card" style="width: 18rem;">
+    <div id="card" class="card" style="width: 18rem;">
       <img style="object-fit: cover; height: 100%;" src="./assets/earring.jpg" class="card-img-top" alt="...">
     </div>
     <!--  -->
-    <div class="card" style="width: 18rem;">
+    <div id="card" class="card" style="width: 18rem;">
       <img style="object-fit: cover; height: 100%; " src="./assets/neckless.jpg" class="card-img-top" alt="...">
     </div>
   </div>  <br> <br>
@@ -158,26 +161,26 @@
     <h1>SHOP OUR BESTSELLERS.</h1>
   </div>
    <div class="container-fluid">
-    <div class="card" style="width: 18rem;">
+    <div  id="card" class="card" style="width: 18rem;">
       <img style="object-fit: cover; height: 100%;" src="./assets/ring 2.jpg" class="card-img-top" alt="...">
     </div>
     <!--  -->
-    <div class="card" style="width: 18rem;">
+    <div id="card" class="card" style="width: 18rem;">
       <img style="object-fit: cover; height: 100%;" src="./assets/ring 1.jpg" class="card-img-top" alt="...">
     </div>
     <!--  -->
-    <div class="card" style="width: 18rem;">
+    <div id="card" class="card" style="width: 18rem;">
       <img style="object-fit: cover; height: 100%;" src="./assets/ring 3.jpg" class="card-img-top" alt="...">
     </div>
     <!--  -->
-    <div class="card" style="width: 18rem;">
+    <div id="card" class="card" style="width: 18rem;">
       <img style="object-fit: cover; height: 100%; " src="./assets/unique ring.jpg" class="card-img-top" alt="...">
     </div>
   </div>  <br> <br>
 
   <div class="reviews">
 
-    <div class="card">
+    <div id="card" class="card">
       <div class="stars">★★★★★</div>
       <div class="name">Mahnoor</div>
       <div class="text">
@@ -185,7 +188,7 @@
       </div>
     </div>
 
-    <div class="card">
+    <div id="card" class="card">
       <div class="stars">★★★★★</div>
       <div class="name">Raheel</div>
       <div class="text">
@@ -193,7 +196,7 @@
       </div>
     </div>
 
-    <div class="card">
+    <div id="card" class="card">
       <div class="stars">★★★★★</div>
       <div class="name">Humaira</div>
       <div class="text">
@@ -201,7 +204,7 @@
       </div>
     </div>
 
-    <div class="card">
+    <div id="card" class="card">
       <div class="stars">★★★★★</div>
       <div class="name">Zohaib</div>
       <div class="text">
@@ -213,7 +216,7 @@
 <!--  -->
   <section class="instagram-section">
   <div class="instagram-header">
-    <a href="https://www.instagram.com/strattonjewels?igsh=NTQzd2JocXVrOTR5"><img src="./assets/icon-insta.png" alt="Instagram Icon" class="insta-icon"></a>
+    <a href="https://www.instagram.com/strattonjewels?igsh=NTQzd2JocXVrOTR5" target="_blank" ><img src="./assets/icon-insta.png" alt="Instagram Icon" class="insta-icon"></a>
     <h2><span>Let's</span> CONNECT<br><small>ON INSTAGRAM</small></h2>
   </div>
 
@@ -263,7 +266,7 @@
     </div>
   </div>
 
-  <a href="https://www.instagram.com/strattonjewels?igsh=NTQzd2JocXVrOTR5"><p class="insta-handle">@Strattonjewels</p></a>
+  <a href="https://www.instagram.com/strattonjewels?igsh=NTQzd2JocXVrOTR5" target="_blank"><p class="insta-handle">@Strattonjewels</p></a>
 </section>
 <footer class="footer">
   <div class="footer-top">
@@ -277,7 +280,7 @@
 
     <div class="footer-right">
       <a href="#"><img src="./assets/Facebook_Logo_(2019).png" alt="Facebook" /></a>
-      <a href="https://www.instagram.com/strattonjewels?igsh=NTQzd2JocXVrOTR5"><img src="./assets/icon-insta.png" alt="Instagram" /></a>
+      <a href="https://www.instagram.com/strattonjewels?igsh=NTQzd2JocXVrOTR5" target="_blank"><img src="./assets/icon-insta.png" alt="Instagram" /></a>
     </div>
   </div>
 
@@ -298,6 +301,13 @@
     integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
     crossorigin="anonymous"></script>
      <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+     <script>
+  window.addEventListener("load", function () {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("main-content").style.display = "block";
+  });
+</script>
+
 </body>
 
 </html>
