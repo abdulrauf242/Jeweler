@@ -349,6 +349,7 @@ div.container-fluid{
       border: 1px solid #fff;
       width: fit-content;
       margin-top: 0.5rem;
+      margin: auto;
     }
 
     .quantity-selector button {
@@ -395,7 +396,7 @@ div.container-fluid{
       color: wheat;
     }
     .media{
-      margin-left: 60px;
+     margin: auto;
       margin-top: 40px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       font-weight: bold;
@@ -492,7 +493,7 @@ div.container-fluid{
         justify-content: center;
         text-align: center;
         display: block;
-          margin-left: 115px;
+          
       }
       .btn-white{
         width: 200px;
@@ -504,11 +505,15 @@ div.container-fluid{
         justify-content: center;
         text-align: center;
         display: block;
-  margin-left: 115px;
       }
       .quantity-selector {
         
-        margin-left: 145px;
+        display: flex;
+        align-items: center;
+        border: 1px solid #fff;
+        width: fit-content;
+        margin-top: 0.5rem;
+        
       }
       html, body {
         width: 100vw;
@@ -534,7 +539,7 @@ div.container-fluid{
       font-size: 1.5rem;
       font-weight: bold;
       margin: 0.5rem 0;
-      margin-left: 130px;
+      
     }
     #abt{
        /* margin-left: -20px; */
@@ -543,19 +548,19 @@ div.container-fluid{
       font-size: 0.75rem;
       letter-spacing: 1px;
       text-transform: uppercase;
-      margin-left: 130px;
+      
     }
     .original-price{
       text-decoration: line-through;
       color: #aaa;
       margin-right: 0.5rem;
-      margin-left: 130px;
+      
       display: block;
     }
     .discounted-price{
       color: wheat;
       font-weight: bold;
-     margin-left: 130px;
+    
       display: block;
     }
     .sale-badge{
@@ -565,39 +570,42 @@ div.container-fluid{
       font-size: 0.75rem;
       border-radius: 9999px;
       margin-top: 0.5rem;
-      margin-left: 130px;
+      
       border: none;
     }
     .quantity-label{
       margin-top: 1.5rem;
       font-size: 0.9rem;
-      margin-left: 130px;
+      margin: auto;
+     
     }
     .view-details{
       margin-top: 1rem;
       font-size: 0.9rem;
       display: block;
       color: wheat;
-      margin-left: 130px;
+     
     }
     html,body{
       overflow-x: hidden;
     }
    .media{
-        margin-left: 160px ;
+        display: flex;
         margin-top: 20px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-weight: bold;
         font-style: normal;
         color: wheat;
       }
+      .media-2{
+          margin: auto;
+        text-align: center;
+      }
     
       .navbar{
         --bs-navbar-padding-x: none !important;
       }
-    * {
-       overflow-x: hidden !important;
-}
+   
 #abtt{
   margin-left: 0px;
   margin-top: 20px;
@@ -861,11 +869,15 @@ div.container-fluid{
     
   }
   .media{
-    margin-left: -45px;
+    display: flex;
     margin-top: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     font-style: normal;
     color: wheat;
+  }
+  .media-2{
+      margin: auto !important;
+        text-align: center;
   }
 }
