@@ -233,7 +233,10 @@ button.navbar-toggler{
     top: 5%;
     left: 5%;
   }
-
+#card{
+  width: 15rem !important;
+  height: auto;
+}
   .hero-section {
     height: auto;
   }
