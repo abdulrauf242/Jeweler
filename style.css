@@ -235,7 +235,7 @@ button.navbar-toggler{
   }
 #card{
   width: 15rem !important;
-  height: auto;
+height: auto;
 }
   .hero-section {
     height: auto;
@@ -284,6 +284,15 @@ div.container-fluid{
 }
 .hello:hover {
    transform: rotateY(160deg);
+}
+.media-2{
+  margin: auto;
+  padding: auto;
+  margin-top: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  color: wheat;
 }
 
 /* Responsive fix for mobile */
@@ -618,6 +627,16 @@ div.container-fluid{
   color: wheat;
   justify-content: center;
   text-align: center;
+}
+.card{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  color: wheat;
 }
 
   }
