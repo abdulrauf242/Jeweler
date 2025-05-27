@@ -270,9 +270,9 @@ div.container-fluid{
 }
 .hello {
   width: 550px;
-  height: 600px;
+  height: 500px;
   border-radius: 10px;
-  margin-left: 200px;
+  margin-left: -90px;
   cursor: pointer;
   color: white;
   box-shadow: 0px 4px 10px wheat;
@@ -361,7 +361,7 @@ div.container-fluid{
       border: 1px solid #fff;
       width: fit-content;
       margin-top: 0.5rem;
-      margin: auto;
+      margin-right: auto;
     }
 
     .quantity-selector button {
@@ -525,6 +525,8 @@ div.container-fluid{
         border: 1px solid #fff;
         width: fit-content;
         margin-top: 0.5rem;
+        margin:auto;
+
         
       }
       html, body {
@@ -902,4 +904,7 @@ div.container-fluid{
       margin: auto !important;
         text-align: center;
   }
+}
+.mb-3{
+  margin-left: auto;
 }
